@@ -2,7 +2,7 @@ HDI rank,Country,HUMAN DEVELOPMENT,Human Development Index (HDI) ,Life expectanc
 1,Switzerland,VERY HIGH ,0.962,84,16.5,13.9,66933,5,3
 2,Norway,VERY HIGH ,0.961,83.2,18.2,13,64660,6,1
 3,Iceland,VERY HIGH ,0.959,82.7,19.2,13.8,55782,11,2
-4,"Hong Kong, China (SAR)",VERY HIGH ,0.952,85.5,17.3,12.2,62607,6,4
+4,Hong Kong,VERY HIGH ,0.952,85.5,17.3,12.2,62607,6,4
 5,Australia,VERY HIGH ,0.951,84.5,21.1,12.7,49238,18,5
 6,Denmark,VERY HIGH ,0.948,81.4,18.7,13,60365,6,5
 7,Sweden,VERY HIGH ,0.947,83,19.4,12.6,54489,9,9
@@ -18,7 +18,7 @@ HDI rank,Country,HUMAN DEVELOPMENT,Human Development Index (HDI) ,Life expectanc
 17,Luxembourg,VERY HIGH ,0.93,82.6,14.4,13,84649,-13,17
 18,United Kingdom,VERY HIGH ,0.929,80.7,17.3,13.4,45225,9,17
 19,Japan,VERY HIGH ,0.925,84.8,15.2,13.4,42274,12,19
-19,Korea (Republic of),VERY HIGH ,0.925,83.7,16.5,12.5,44501,9,20
+19,South-Korea,VERY HIGH ,0.925,83.7,16.5,12.5,44501,9,20
 21,United States,VERY HIGH ,0.921,77.2,16.3,13.7,64765,-14,21
 22,Israel,VERY HIGH ,0.919,82.3,16.1,13.3,41524,10,22
 23,Malta,VERY HIGH ,0.918,83.8,16.8,12.2,38884,12,26
@@ -46,7 +46,7 @@ HDI rank,Country,HUMAN DEVELOPMENT,Human Development Index (HDI) ,Life expectanc
 45,Slovakia,VERY HIGH ,0.848,74.9,14.5,12.9,30690,1,40
 46,Hungary,VERY HIGH ,0.846,74.5,15,12.2,32789,-2,44
 47,Argentina,VERY HIGH ,0.842,75.4,17.9,11.1,20925,17,47
-48,T�rkiye,VERY HIGH ,0.838,76,18.3,8.6,31033,-3,48
+48,Turkey,VERY HIGH ,0.838,76,18.3,8.6,31033,-3,48
 49,Montenegro,VERY HIGH ,0.832,76.3,15.1,12.2,20839,16,52
 50,Kuwait,VERY HIGH ,0.831,78.7,15.3,7.3,52920,-32,54
 51,Brunei Darussalam,VERY HIGH ,0.829,74.6,14,9.2,64490,-42,49
@@ -74,7 +74,7 @@ HDI rank,Country,HUMAN DEVELOPMENT,Human Development Index (HDI) ,Life expectanc
 73,Sri Lanka,HIGH,0.782,76.4,14.1,10.8,12578,21,75
 74,Bosnia and Herzegovina,HIGH,0.78,75.3,13.8,10.5,15242,4,73
 75,Saint Kitts and Nevis,HIGH,0.777,71.7,15.4,8.7,23358,-16,76
-76,Iran (Islamic Republic of),HIGH,0.774,73.9,14.6,10.6,13001,15,77
+76,Iran,HIGH,0.774,73.9,14.6,10.6,13001,15,77
 77,Ukraine,HIGH,0.773,71.6,15,11.1,13256,11,78
 78,North Macedonia,HIGH,0.77,73.8,13.6,10.2,15918,-3,79
 79,China,HIGH,0.768,78.2,14.2,7.6,17504,-8,82
@@ -116,7 +116,7 @@ HDI rank,Country,HUMAN DEVELOPMENT,Human Development Index (HDI) ,Life expectanc
 115,Viet Nam,HIGH,0.703,73.6,13,8.4,7867,6,113
 116,Philippines,MEDIUM ,0.699,69.3,13.1,9,8920,-3,113
 117,Botswana,MEDIUM ,0.693,61.1,12.3,10.3,16198,-43,110
-118,Bolivia (Plurinational State of),MEDIUM ,0.692,63.6,14.9,9.8,8111,0,119
+118,Bolivia,MEDIUM ,0.692,63.6,14.9,9.8,8111,0,119
 118,Kyrgyzstan,MEDIUM ,0.692,70,13.2,11.4,4566,26,121
 120,Venezuela (Bolivarian Republic of),MEDIUM ,0.691,70.6,12.8,11.1,4811,20,118
 121,Iraq,MEDIUM ,0.686,70.4,12.1,7.9,9977,-12,122
@@ -142,7 +142,7 @@ HDI rank,Country,HUMAN DEVELOPMENT,Human Development Index (HDI) ,Life expectanc
 140,Timor-Leste,MEDIUM ,0.607,67.7,12.6,5.4,4461,7,140
 140,Vanuatu,MEDIUM ,0.607,70.4,11.5,7.1,3085,23,142
 143,Nepal,MEDIUM ,0.602,68.4,12.9,5.1,3877,10,144
-144,Eswatini (Kingdom of),MEDIUM ,0.597,57.1,13.7,5.6,7679,-21,141
+144,Kingdom of Eswatini,MEDIUM ,0.597,57.1,13.7,5.6,7679,-21,141
 145,Equatorial Guinea,MEDIUM ,0.596,60.6,9.7,5.9,12074,-47,147
 146,Cambodia,MEDIUM ,0.593,69.6,11.5,5.1,4079,3,148
 146,Zimbabwe,MEDIUM ,0.593,59.3,12.1,8.7,3810,9,145
@@ -157,8 +157,8 @@ HDI rank,Country,HUMAN DEVELOPMENT,Human Development Index (HDI) ,Life expectanc
 156,Comoros,MEDIUM ,0.558,63.4,11.9,5.1,3142,6,156
 156,Papua New Guinea,MEDIUM ,0.558,65.4,10.4,4.7,4009,-4,157
 158,Mauritania,MEDIUM ,0.556,64.4,9.4,4.9,5075,-20,158
-159,C�te d'Ivoire,MEDIUM ,0.55,58.6,10.7,5.2,5217,-22,159
-160,Tanzania (United Republic of),LOW,0.549,66.2,9.2,6.4,2664,7,160
+159,Côte d'Ivoire,MEDIUM ,0.55,58.6,10.7,5.2,5217,-22,159
+160,Tanzania,LOW,0.549,66.2,9.2,6.4,2664,7,160
 161,Pakistan,LOW,0.544,66.1,8.7,4.5,4624,-19,161
 162,Togo,LOW,0.539,61.6,13,5,2167,12,163
 163,Haiti,LOW,0.535,63.2,9.7,5.6,2848,2,162
@@ -177,7 +177,7 @@ HDI rank,Country,HUMAN DEVELOPMENT,Human Development Index (HDI) ,Life expectanc
 176,Eritrea,LOW,0.492,66.5,8.1,4.9,1729,3,176
 177,Guinea-Bissau,LOW,0.483,59.7,10.6,3.6,1908,0,177
 178,Liberia,LOW,0.481,60.7,10.4,5.1,1289,7,179
-179,Congo (Democratic Republic of the),LOW,0.479,59.2,9.8,7,1076,9,180
+179,Congo,LOW,0.479,59.2,9.8,7,1076,9,180
 180,Afghanistan,LOW,0.478,62,10.3,3,1824,-2,177
 181,Sierra Leone,LOW,0.477,60.1,9.6,4.6,1622,-1,181
 182,Guinea,LOW,0.465,58.9,9.8,2.2,2481,-13,182
@@ -190,7 +190,7 @@ HDI rank,Country,HUMAN DEVELOPMENT,Human Development Index (HDI) ,Life expectanc
 189,Niger,LOW,0.4,61.6,7,2.1,1240,-3,189
 190,Chad,LOW,0.394,52.5,8,2.6,1364,-7,190
 191,South Sudan,LOW,0.385,55,5.5,5.7,768,-1,191
-192,Korea (Democratic People's Rep. of),OTHER ,..,73.3,10.8,..,..,..,..
+192,North-Korea,OTHER ,..,73.3,10.8,..,..,..,..
 193,Monaco,OTHER ,..,85.9,..,..,..,..,..
 194,Nauru,OTHER ,..,63.6,11.7,..,17730,..,..
 195,Somalia,OTHER ,..,55.3,..,..,1018,..,..
